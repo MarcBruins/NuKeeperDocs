@@ -1,0 +1,16 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "NuKeeper"
+theme = "hugo-theme-learn"
+
+
+[params]
+  editURL = "https://github.com/NuKeeperDotnet/NuKeeper/edit/master/site/content/"
+  description = "Documentation for NuKeeper"
+  author = "Marc Bruins"
+  showVisitedLinks = false
+  disableBreadcrumb = false
+  disableNextPrev = true
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
